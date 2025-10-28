@@ -18,3 +18,6 @@ Como reproduzir (alto-nível):
 3. Seguir os READMEs de cada cenário em /scenarios/*.
 
 Observação: testes realizados exclusivamente em ambiente isolado para fins educativos e o Desafio DIO.
+## Licença
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE).  
+Tradução para o português disponível em [LICENSE_PT-BR.md](./LICENSE_PT-BR.md).
