@@ -1,0 +1,7 @@
+*.pem
+*.key
+*.env
+*.ovpn
+*.pcap
+.vagrant/
+*.box
