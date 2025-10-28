@@ -1,11 +1,7 @@
-# Desafio-01---DIO-kali-medusa
-Simulação de ataques de força bruta com Kali + Medusa — Desafio 01 do projeto DIO
+# Desafio 01 DIO - kali + medusa
 
-
-# Projeto DIO — Força Bruta com Kali + Medusa
-
-**Autor:** Seu Nome  
-**Data:** YYYY-MM-DD
+**Autor:** CHRISTIE SOARES WALDEMAR  
+**Data:** 28/10/2025
 
 Resumo:
 Simulação de ataques de força bruta em ambiente controlado (Kali + Metasploitable2/DVWA) usando Medusa. O repositório contém documentação passo-a-passo, wordlists de exemplo e evidências (screenshots).
@@ -21,4 +17,4 @@ Como reproduzir (alto-nível):
 2. Restaurar snapshots antes dos testes.
 3. Seguir os READMEs de cada cenário em /scenarios/*.
 
-Observação: testes realizados exclusivamente em ambiente isolado para fins educativos.
+Observação: testes realizados exclusivamente em ambiente isolado para fins educativos e o Desafio DIO.
