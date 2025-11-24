@@ -29,7 +29,7 @@ Print exemplo:
 
 ---
 
-✅ 3. Ferramentas Utilizadas**
+✅ 3. Ferramentas Utilizadas
 - Kali Linux
 - Medusa
 - Metasploitable 2
@@ -39,7 +39,7 @@ Print exemplo:
 ---
 
 ✅ 4. Ataques Realizados
-Os codigos executados nos ataques FTP, DVWA e SMB estão organizados na pasta cenário devidamentes agrupadas nas respectivas subpastas (ftp,smb,web-dvwa).
+- Os codigos executados nos ataques FTP, DVWA e SMB estão organizados na pasta cenário devidamentes agrupadas nas respectivas subpastas (ftp,smb,web-dvwa).
 
 ### **4.1 FTP - Força Bruta**
 Comando:
