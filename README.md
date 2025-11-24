@@ -36,7 +36,8 @@ Print exemplo:
 
 ---
 
-✅ 4. Ataques Realizados**
+✅ 4. Ataques Realizados
+Os codigos executados nos ataques FTP, DVWA e SMB estão organizados na pasta cenário devidamentes agrupadas nas respectivas subpastas (ftp,smb,web-dvwa).
 
 ### **4.1 FTP - Força Bruta**
 Comando:
@@ -81,7 +82,7 @@ medusa -h 192.168.56.102 -U wordlists/users.txt -P wordlists/passwords.txt -M sm
 
 ---
 
-## ✅ **5. Resultados**
+✅ 5. Resultados**
 - FTP: Credenciais encontradas → `msfadmin:msfadmin`
 - DVWA: Login bem-sucedido com senha fraca.
 - SMB: Usuário válido identificado.
@@ -93,12 +94,12 @@ medusa -h 192.168.56.102 -U wordlists/users.txt -P wordlists/passwords.txt -M sm
 
 ---
 
-## ✅ **6. Medidas de Mitigação**
-- **Políticas de senha forte** (mínimo 12 caracteres, complexidade).
-- **Bloqueio após tentativas falhas**.
-- **CAPTCHA em formulários**.
-- **Monitoramento de logs e alertas**.
-- **Segmentação de rede e restrição de serviços**.
+✅ 6. Medidas de Mitigação**
+- Políticas de senha forte (mínimo 12 caracteres, complexidade).
+- Bloqueio após tentativas falhas.
+- CAPTCHA em formulários.
+- Monitoramento de logs e alertas.
+- Segmentação de rede e restrição de serviços.
 
 ---
 
@@ -107,42 +108,21 @@ medusa -h 192.168.56.102 -U wordlists/users.txt -P wordlists/passwords.txt -M sm
 /projeto-medusa
     /images        # Capturas de tela
     /wordlists     # Listas de senhas e usuários
-    /scripts       # Scripts automatizados (opcional)
+    /scenarios       # Scenarios de ataques dividos
     README.md      # Documentação principal
+    LICENSE
+    LICENSE_PT-BR
+
 ```
 
 ---
 
-## ✅ **8. Como Executar**
-1. Clone o repositório:
-```bash
-git clone https://github.com/seuusuario/projeto-medusa.git
-```
-2. Acesse a pasta:
-```bash
-cd projeto-medusa
-```
-3. Execute os comandos conforme documentado.
-
----
-
-## ✅ **9. Referências**
+✅ 9. Referências**
 - [Kali Linux](https://www.kali.org/)
 - [Medusa Tool](https://tools.kali.org/password-attacks/medusa)
 - [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)
 - [DVWA](https://github.com/digininja/DVWA)
 
-
-Estrutura:
-- rules_of_engagement.md
-- cenarios/ (ftp, web-dvwa, smb)
-- wordlists/
-- images/
-
-Como reproduzir (alto-nível):
-1. Importar VMs e configurar rede host-only.
-2. Restaurar snapshots antes dos testes.
-3. Seguir os READMEs de cada cenário em /cenarios/*.
 
 Observação: testes realizados exclusivamente em ambiente isolado para fins educativos e o Desafio DIO.
 ## Licença
