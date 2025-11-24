@@ -27,6 +27,8 @@ Print exemplo:
 
 (images/ambiente.png)
 
+---
+
 ✅ 3. Ferramentas Utilizadas**
 - Kali Linux
 - Medusa
