@@ -4,12 +4,12 @@
 Simular ataques de força bruta em um formulário de login (DVWA) em ambiente controlado para entender vetores, limitações e mitigação.
 
 ## Requisitos do lab
-- DVWA rodando na VM vulnerável (Web server + MySQL).
+- DVWA rodando na VM vulnerável.
 - Kali Linux na mesma rede host-only.
 - Nível de segurança do DVWA: **Low** ou **Medium** (documente o nível exato antes do teste).
 - Snapshot das VMs antes do começo.
 
-**AS IMAGENS DO ATAQUE AO DVWA ESTAO NA PASTA IMAGENS\DVWA
+**AS IMAGENS DO ATAQUE AO DVWA ESTAO NA PASTA IMAGENS\DVWA**
 
 # Ataque a Formulários Web (DVWA)
 
