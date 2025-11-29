@@ -2,6 +2,7 @@
 
 Este arquivo documenta o passo a passo realizado para simular um ataque de força bruta ao serviço FTP utilizando o Kali Linux e a ferramenta Medusa.
 
+**AS IMAGENS/PRINTS DOS ATAQUE ESTÃO NA PASTA IMAGENS/FTP**
 ---
 
 ## 1. Identificando o Serviço FTP
