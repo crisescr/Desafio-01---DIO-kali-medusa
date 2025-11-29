@@ -1,5 +1,5 @@
+user
+msfadmin
 admin
-password
-123456
 root
-test
+
