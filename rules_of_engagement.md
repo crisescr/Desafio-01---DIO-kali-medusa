@@ -41,11 +41,10 @@
 - Se houver erro de configuração de rede ou impacto fora do lab, encerrar VMs imediatamente.
 
 ## Responsável / Contato
-- Nome: Seu Nome
-- E-mail: seu-email@example.com (opcional)
-
+- Nome: CHRISTIE SOARES WALDEMAR
+- E-mail: christiecwb@gmail.com
 ## Versões
-- v1.0 — YYYY-MM-DD — Documento inicial.
+- v1.0 — 02/11/2025 — Documento inicial.
 
 
 add RULES and initial structure
