@@ -64,6 +64,7 @@ Este projeto serve para simulação de ataques de força bruta em ambiente contr
     LICENSE
     LICENSE_PT-BR
     rules_of_engagement.md
+    Boas Práticas de Segurança.md
 
 ```
 
