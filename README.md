@@ -53,6 +53,7 @@ Este projeto serve para simulação de ataques de força bruta em ambiente contr
 **O PASSO A PASSO DO ATAQUE PASSWORD SPRAING EM SERVIÇO SMB ESTA DETALHADO NA PASTA SCENARIOS\SMB**
 ---
 
+
 ## ✅ **5. Estrutura do Repositório**
 ```
 /projeto-medusa
